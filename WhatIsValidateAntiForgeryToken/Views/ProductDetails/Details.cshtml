@@ -1,0 +1,43 @@
+﻿@model WhatIsValidateAntiForgeryToken.Models.ProductDetails
+
+@{
+    ViewBag.Title = "Subscription Details";
+}
+
+<h2>Subscription Details</h2>
+
+<fieldset>
+    <legend>ProductDetails</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.AccountUserName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.AccountUserName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ProductName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ProductName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.LicenseCount)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.LicenseCount)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.LicenseUsedCount)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.LicenseUsedCount)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
