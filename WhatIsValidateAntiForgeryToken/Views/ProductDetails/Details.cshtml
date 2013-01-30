@@ -1,4 +1,6 @@
-﻿@model WhatIsValidateAntiForgeryToken.Models.ProductDetails
+﻿
+
+@model WhatIsValidateAntiForgeryToken.Models.ProductDetails
 
 @{
     ViewBag.Title = "Subscription Details";
@@ -37,7 +39,3 @@
         @Html.DisplayFor(model => model.LicenseUsedCount)
     </div>
 </fieldset>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
