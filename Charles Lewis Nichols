@@ -1,0 +1,197 @@
+rgb(255,0,79)ref.errors {access#FF69B5"Robot"
+#ff0044
+"selectWord": {
+"description": "Open previous file tab",
+"key": "Ctrl-D"
+},
+"centerselection": {
+"description": "Center selection",
+"key": null
+},
+"fold": {
+"key": "Alt-L|Ctrl-F1"
+},
+"unfold": {
+"key": "Alt-Shift-L|Ctrl-Shift-F1"
+},
+"toggleFoldWidget": {
+"key": null
+},
+"toggleParentFoldWidget": {
+"key": "Alt-F2"
+},
+"foldall": {
+"description": "Fold all",
+"key": null
+},
+"foldOther": {
+"description": "Fold other",
+"key": "Alt-0"
+},
+"unfoldall": {
+"description": "Unfold all",
+"key": "Alt-Shift-0"
+},
+"findnext": {
+"description": "Find next",
+"key": "Ctrl-K"
+},
+"findprevious": {
+"description": "Find previous",
+"key": "Ctrl-Shift-K"
+},
+"selectOrFindNext": {
+"description": "Select or find next",
+"key": "Alt-K"
+},
+"selectOrFindPrevious": {
+"description": "Select or find previous",
+"key": "Alt-Shift-K"
+},
+"removeline": {
+"description": "Remove line",
+"key": null
+},
+"duplicateSelection": {
+"description": "Duplicate selection",
+"key": "Ctrl-Shift-D"
+},
+"sortlines": {
+"description": "Sort lines",
+"key": "Ctrl-Alt-S"
+},
+"togglecomment": {
+"description": "Toggle comment",
+"key": "Ctrl-/"
+},
+"toggleBlockComment": {
+"description": "Toggle block comment",
+"key": "Ctrl-Shift-/"
+},
+"modifyNumberUp": {
+"description": "Modify number up",
+"key": "Ctrl-Shift-Up"
+},
+"modifyNumberDown": {
+"description": "Modify number down",
+"key": "Ctrl-Shift-Down"
+},
+"replace": {
+"description": "Replace",
+"key": "Ctrl-H"
+},
+"undo": {
+"description": "Undo",
+"key": "Ctrl-Z"
+},
+"redo": {
+"description": "Redo",
+"key": "Ctrl-Shift-Z|Ctrl-Y"
+},
+"copylinesup": {
+"description": "Copy lines up",
+"key": "Alt-Shift-Up"
+},
+"movelinesup": {
+"description": "Move lines up",
+"key": "Alt-Up"
+},
+"copylinesdown": {
+"description": "Copy lines down",
+"key": "Alt-Shift-Down"
+},
+"movelinesdown": {
+"description": "Move lines down",
+"key": "Alt-Down"
+},
+"backspace": {
+"description": "Backspace",
+"key": "Shift-Backspace|Backspace"
+},
+"cut_or_delete": {
+"description": "Cut or delete",
+"key": "Shift-Delete"
+},
+"removetolinestart": {
+"description": "Remove to line start",
+"key": "Alt-Backspace"
+},
+"removetolineend": {
+"description": "Remove to line end",
+"key": "Alt-Delete"
+},
+"removetolinestarthard": {
+"description": "Remove to line start hard",
+"key": "Ctrl-Shift-Backspace"
+},
+"removetolineendhard": {
+"description": "Remove to line end hard",
+"key": "Ctrl-Shift-Delete"
+},
+"removewordleft": {
+"description": "Remove word left",
+"key": "Ctrl-Backspace"
+},
+"removewordright": {
+"description": "Remove word right",
+"key": "Ctrl-Delete"
+},
+"outdent": {
+"description": "Outdent",
+"key": "Shift-Tab"
+},
+"blockoutdent": {
+"description": "Block outdent",
+"key": "Ctrl-["
+},
+"blockindent": {
+"description": "Block indent",
+"key": "Ctrl-]"
+},
+"splitline": {
+"description": "Split line",
+"key": null
+},
+"transposeletters": {
+"description": "Transpose letters",
+"key": "Alt-Shift-X"
+},
+"touppercase": {
+"description": "To uppercase",
+"key": "Ctrl-U"
+},
+"tolowercase": {
+"description": "To lowercase",
+"key": "Ctrl-Shift-U"
+},
+"joinlines": {
+"description": "Join lines",
+"key": null
+},
+"invertSelection": {
+"description": "Invert selection",
+"key": null
+},
+"modeSelect": {
+"description": "Change language mode...",
+"key": "Ctrl-M"
+}
+}TimeoutException: [ps cmd]
+TimeoutException: [ps cmd]
+TimeoutException: [ps cmd]
+TimeoutException: [id cmd]
+TimeoutException: [id cmd]
+TimeoutException: [id cmd]
+TimeoutException: [file owner]
+TimeoutException: [file owner]
+TimeoutException: [file owner]
+
+It appears that your device may not be rooted or that you did not grant/allow access from the SuperSU / SuperUser app?
+
+Reminder: this app will/does NOT root devices--it is simply a set of useful root tools, and is NOT a rooting method/app.
+
+appears
+test #1b (ps):  attempted/true
+test #1c (ps):  attempted/true
+test #2a (id):   attempted/true
+test #2a (id):   attempted/true
